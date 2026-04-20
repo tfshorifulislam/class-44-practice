@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Learn React Basics",
+    "description": "Study components, props, and state",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-22"
+  },
+  {
+    "id": 2,
+    "title": "Build Todo App",
+    "description": "Create a simple CRUD todo app",
+    "status": "in-progress",
+    "priority": "medium",
+    "dueDate": "2026-04-25"
+  },
+  {
+    "id": 3,
+    "title": "Learn Next.js",
+    "description": "Understand SSR, SSG, ISR",
+    "status": "pending",
+    "priority": "high",
+    "dueDate": "2026-04-28"
+  },
+  {
+    "id": 4,
+    "title": "Fix Bugs",
+    "description": "Resolve UI issues",
+    "status": "completed",
+    "priority": "low",
+    "dueDate": "2026-04-19"
+  },
+  {
+    "id": 5,
+    "title": "Deploy Website",
+    "description": "Deploy to Vercel",
+    "status": "pending",
+    "priority": "medium",
+    "dueDate": "2026-04-30"
+  }
+]
