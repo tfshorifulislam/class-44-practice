@@ -24,7 +24,7 @@ export function AddATask({ CreateATask }) {
                         <Modal.Body className="p-6">
                             <Surface variant="default">
                                 <form action={CreateATask} className="flex flex-col gap-4">
-                                    <TextField className="w-full" title="title" type="text">
+                                    <TextField className="w-full" name="title" type="text">
                                         <Label>Title</Label>
                                         <Input placeholder="Enter your Task title" />
                                     </TextField>
@@ -32,7 +32,7 @@ export function AddATask({ CreateATask }) {
                                         <Label>Description</Label>
                                         <Input placeholder="Enter your description" />
                                     </TextField>
-                                    <Select className="w-[256px]" placeholder="Select one">
+                                    <Select name="Priority" className="w-[256px]" placeholder="Select one">
                                         <Label>Priority</Label>
                                         <Select.Trigger>
                                             <Select.Value />
@@ -57,7 +57,7 @@ export function AddATask({ CreateATask }) {
                                         </Select.Popover>
                                     </Select>
 
-                                    <Select className="w-[256px]" placeholder="Select one">
+                                    <Select name="Status" className="w-[256px]" placeholder="Select one">
                                         <Label>Status</Label>
                                         <Select.Trigger>
                                             <Select.Value />
