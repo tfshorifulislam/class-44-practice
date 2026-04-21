@@ -11,16 +11,6 @@ export function AddATask({ CreateATask }) {
                 <Modal.Container placement="auto">
                     <Modal.Dialog className="sm:max-w-md">
                         <Modal.CloseTrigger />
-                        <Modal.Header>
-                            <Modal.Icon className="bg-accent-soft text-accent-soft-foreground">
-                                <CirclePlus className="size-5" />
-                            </Modal.Icon>
-                            <Modal.Heading>Contact Us</Modal.Heading>
-                            <p className="mt-1.5 text-sm leading-5 text-muted">
-                                Fill out the form below and we will get back to you. The modal adapts automatically
-                                when the keyboard appears on mobile.
-                            </p>
-                        </Modal.Header>
                         <Modal.Body className="p-6">
                             <Surface variant="default">
                                 <form action={CreateATask} className="flex flex-col gap-4">
